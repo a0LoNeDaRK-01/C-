@@ -1,0 +1,49 @@
+#include <stdio.h>
+int main(){
+	
+	int ilksayi=1;
+	int ikincisayi=1;
+	int i;
+	
+	printf("%d\n%d\n",ilksayi,ikinci sayi);
+	
+	
+	
+	for(i=0;i<15;i++);{
+	
+	int temp = ikincisayi;
+	ikincisayi += ilksayi;
+	ilksayi=temp;
+	
+	printf("%d\n",ikincisayi);
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
